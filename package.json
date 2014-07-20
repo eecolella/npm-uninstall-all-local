@@ -1,8 +1,8 @@
 {
-    "name"           : "npm-uninstall-local",
-    "version"        : "1.0.0",
+    "name"           : "npm-uninstall-all-local",
+    "version"        : "1.0.6",
     "description"    : "npm uninstall all local modules",
-    "main"           : "npm-uninstall-local.js",
+    "main"           : "./lib/npm-uninstall-all-local",
     "scripts"        : {
         "test": "gulp test"
     },
@@ -16,5 +16,11 @@
     "devDependencies": {
         "gulp"       : "^3.8.6",
         "gulp-jshint": "^1.7.1"
-    }
+    },
+    "bin":{
+        "npm-uninstall-all-local" : "./bin/npm-uninstall-all-local.js"
+    },
+    "engines": { "node": "*" },
+    "preferGlobal": "true"
+
 }
