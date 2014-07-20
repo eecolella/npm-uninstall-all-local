@@ -1,0 +1,20 @@
+{
+    "name"           : "npm-uninstall-local",
+    "version"        : "0.1.0",
+    "description"    : "npm uninstall all local modules",
+    "main"           : "npm-uninstall-local.js",
+    "scripts"        : {
+        "test": "gulp test"
+    },
+    "author"         : "Ermes Enea Colella <eecolella@gmail.com>",
+    "license"        : [
+        {
+            "type": "MIT",
+            "url" : "https://github.com/brentertz/scapegoat/blob/master/LICENSE-MIT"
+        }
+    ],
+    "devDependencies": {
+        "gulp"       : "^3.8.6",
+        "gulp-jshint": "^1.7.1"
+    }
+}
