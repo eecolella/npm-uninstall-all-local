@@ -1,6 +1,6 @@
 {
     "name"           : "npm-uninstall-all-local",
-    "version"        : "1.0.7",
+    "version"        : "1.0.8",
     "description"    : "npm uninstall all local modules",
     "main"           : "./lib/npm-uninstall-all-local",
     "scripts"        : {
